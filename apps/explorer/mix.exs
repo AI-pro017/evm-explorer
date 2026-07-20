@@ -96,7 +96,7 @@ defmodule Explorer.Mixfile do
       {:prometheus_ecto, "~> 1.4.3"},
       # bypass optional dependency
       {:plug_cowboy, "~> 2.2", only: [:dev, :test]},
-      {:que, "~> 0.10.1"},
+      {:que, "~> 0.12.0"},
       {:sobelow, ">= 0.7.0", only: [:dev, :test], runtime: false},
       # Tracing
       {:spandex, "~> 3.0"},
